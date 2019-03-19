@@ -1,0 +1,171 @@
+body {
+	font-size: 12px;
+	background: #fff;
+	line-height: 18px;
+}
+abbr, article, aside, blockquote, body, button, dd, details, div, dl, dt,
+	fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6,
+	header, hgroup, html, input, li, mark, meter, nav, ol, output, p, pre,
+	progress, section, summary, time, ul {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei", simsun;
+}
+ h1, h2, h3, h4, h5, h6, th {
+	font-weight: 400;
+	font-style: normal;
+	word-wrap: break-word;
+}
+dd, dl, dt, li, ul {
+	list-style: none;
+}
+table {
+    text-align: center;
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+}
+tbody td, thead td {
+	border-bottom: 1px gray solid;
+	height: 30px;
+}
+thead td {
+	font-weight: bold;
+}
+tbody td input {
+	border: 1px solid lightgray;
+	width: 30px;
+}
+
+.header {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	height: 34px;
+}
+.header .operate {
+	float: right;
+	padding-right: 30px;
+}
+.header .operate  span{
+	color: red;
+}
+.icon_card {
+    float: left;
+    width: 15px;
+    height: 14px;
+    background: url(../image/icons.png) no-repeat -40px -86px;
+    margin: 3px 9px 0 0;
+}
+.header a {
+	display: block;
+	line-height: 21px;
+	padding: 0 7px 0 8px;
+	text-decoration: none;
+	color: #333;
+}
+.header li {
+	float: left;
+	padding-top: 4px;
+	background: 	url(../image/icons.png) 	no-repeat left -285px;
+}
+.main {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.main .message{
+	margin-bottom: 20px;
+}
+.footer {
+	text-align: center;
+	border-top: 1px solid #ebebeb;
+	padding: 15px 0 20px;
+	color: #666;
+}
+
+
+/* 分页 */
+
+.page span {
+	width: 30px;
+	border-radius: 3px;
+	background-color: #CC3300;
+	height: 25px;
+	text-align: center;
+	color: white;
+	line-height:25px;
+	font-size: 16px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.page a{
+    border: 1px solid lightgray;
+    width: 30px;
+    border-radius: 3px;
+    height: 25px;
+    text-align: center;
+    line-height:25px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.page a:hover {
+	color: #fff;
+	background-color:#CC3300;
+	border: 1px solid #CC3300;
+	cursor: pointer;
+}
+
+
+.text-input{
+    margin-bottom: 10px;
+}
+.text-input input{
+    height: 21px;
+}
+
+.text-input label{
+    width: 60px;
+    float: left;
+}
+.text-input span{
+    color:red;
+}
+.image-code input,.image-code span{
+    position:relative;
+    top: -10px;
+}
+
+.address-list div{
+    border-top: 1px solid #d3d3d3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.address-default{
+    background: #f4feff;
+}
+.message p{
+    font-size: 18px;
+    display:inline; 
+}
+.message span{
+    color:red;
+}
+.success {
+    font-size: 18px;
+}
+.success a{
+    display:block;
+    margin-bottom: 40px;
+    
+}
+.success span{
+    color:red;
+    font-size: 30px;
+}
